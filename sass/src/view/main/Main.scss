@@ -1,0 +1,90 @@
+
+.x-tab-focus.x-tab-navigation {
+    outline: none;
+}
+
+.x-btn-focus.x-btn-default-small{
+    box-shadow: none;
+}
+.x-btn-focus.x-btn-pressed.x-btn-default-small{
+    box-shadow: none;
+}
+.x-btn-focus.x-btn-over.x-btn-default-small{
+    box-shadow: none;
+}
+
+.x-accordion-hd .x-tool-img{
+    color: whitesmoke;
+}
+.x-btn-inner-default-small{
+    color: inherit;
+}
+.x-form-checkbox-focus.x-form-checkbox-default{
+    color: #4151ab;
+}
+.x-form-trigger-wrap-default.x-form-trigger-wrap-focus{
+    border-color: #4151ab;
+}
+.x-boundlist-item.x-boundlist-selected{
+    border-color: #4151ab;
+    background: #4151ab;
+}
+
+.x-boundlist-item.x-boundlist-item-over{
+    border-color: #6a73bc;
+    background: #6a73bc;
+}
+
+.x-grid-cell-inner,  .x-title-text, .x-form-item-label-inner,
+.x-form-text-default, .x-boundlist-item, .x-btn-inner-default-toolbar-small,
+.x-grid-group-title, .x-column-header-text {
+    font-family: helvetica, arial, verdana, sans-serif !important;
+}
+.x-form-item-label-default{
+    color: inherit;
+    font-weight: bold;
+}
+.x-mask{
+    background-color: rgba(208, 208, 208, 0.5) !important;
+    border-width: 0px !important;
+}
+.x-mask.x-focus{
+    border-width: 0px !important;
+}
+.x-window-header-default .x-tool-img {
+    background-color: #6a73bc !important;
+}
+
+.x-btn-default-small{
+    border-color: #6a73bc !important;
+    background-color: #6a73bc!important;
+    color: whitesmoke !important;
+
+}
+.x-btn-over.x-btn-default-small{
+    border-color: #828bd7 !important;
+    background-color: #828bd7 !important;
+}
+
+.data-type-switcher{
+    .x-btn.x-btn-menu-active.x-btn-default-small, .x-btn.x-btn-pressed.x-btn-default-small{
+        border-color: #6a73bc !important;
+        background-image: none;
+        box-shadow: 0 0 2px 1px #6a73bc;
+        background-color: #6a73bc !important;
+        color: whitesmoke !important;
+    }
+
+    .x-btn-default-small{
+        border-color: #828bd7 !important;
+        background-color: whitesmoke !important;
+        color: black !important;
+
+    }
+
+    .x-btn-over.x-btn-default-small{
+        border-color: #8f98e5 !important;
+        background-color: #8f98e5 !important;
+        color: whitesmoke !important;
+    }
+}
